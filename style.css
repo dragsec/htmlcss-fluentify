@@ -21,6 +21,7 @@ body{
     background-color: lightgreen;
     line-height: 50px;
     border-radius: 10px;
+    padding: 10px 0;
 }
 .borderbot{
     border-bottom: lightgrey 2px solid;
