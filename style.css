@@ -26,6 +26,29 @@ body{
 .borderbot{
     border-bottom: lightgrey 2px solid;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.font1{
+    font-size: 40px;
+}
+.font2{
+    font-size: 20px;
+}
+.fontwhite{
+    color: white;
+}
+.fontgrey{
+    color: gray;
+}
 footer{
     width: 100px;
     height: 50px;
@@ -39,18 +62,21 @@ footer{
     text-align: center;
 }
 header{
-    background-color: navy;
+    background-color: #0F3058;
     height: 750px;
     background-image: url(img/background-header.png);
-    background-size: 2000px;
+    background-size: 1200px;
     background-repeat: no-repeat;
-
+    background-position: right bottom;
 }
-.headerheader{
-
+.headercontainer{
+    width: 1400px;
+    margin:auto;
+    padding-top: 20px;
 }
-
-
+.headerheader>div{
+    display: inline-block;
+}
 h2{  
     display: inline-block;
 }
@@ -61,7 +87,6 @@ h2{
 .gray{
     background-color: lightgray;
     height: 250px;
-    border: 1px solid;
 }
 .white{
     height: 200px;
