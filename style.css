@@ -146,11 +146,10 @@ h2{
 .white{
 }
 .whitecontainer1 > div{
-    height: 700px;
+    height: 675px;
     width: 490px;
     display: inline-block;
     text-align: center;
-    background-color: pink;
     padding: 30px;
 }
 .whitecontainer1 > div:nth-child(2){
@@ -163,9 +162,19 @@ h2{
     padding-bottom: 30px;
 }
 .whitecontainer2 > div{
-    height: 700px;
+    height: 675px;
     display: inline-block;
     text-align: center;
-    width: 800;
+    vertical-align: middle;
+    width: 790px;
     padding: 30px;
+}
+.box32{
+    padding-top: 200px;
+}
+.box3 > *{
+    padding-bottom: 50px;
+}
+.box4{
+    padding-right: 20px;
 }
